@@ -50,7 +50,6 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 3. Install the required packages:
 pip install -r requirements.txt
 
-(Note: You will need to create a requirements.txt file listing all dependencies.)
 Usage
 Verifying the Dataset
 Before training, it's a good practice to verify that all files in the dataset/train directory are valid images. Run the verify_image.py script to check the dataset.
