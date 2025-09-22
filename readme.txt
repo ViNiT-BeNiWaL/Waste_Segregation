@@ -27,7 +27,7 @@ The model is trained on a custom dataset of waste images, sorted into 12 categor
    * (and 6 other categories)
 File Descriptions
 Here's a breakdown of the important files in this project:
-* train_model.py: This script contains the code to build, train, and save the waste segregation model. It reads the images from the dataset/train directory, trains a neural network, and saves the trained model to a file (e.g., waste_model.h5).
+* train_model.py: This script contains the code to build, train, and save the waste segregation model. It reads the images from the dataset/train directory, trains a neural network, and saves the trained model to a file (e.g., model.h5).
 * app.py: A simple web application (likely built with a framework like Flask or Streamlit) that loads the pre-trained model and provides a user interface to upload an image. The application then displays the predicted waste category for the uploaded image.
 * verify_image.py: A utility script to check the dataset/train directory and ensure that it contains only valid image files. This is useful for cleaning the dataset before training.
 Getting Started
@@ -75,4 +75,5 @@ Contributions are welcome! If you have suggestions for improvements, please open
    4. Push to the Branch (git push origin feature/AmazingFeature)
    5. Open a Pull Request
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
